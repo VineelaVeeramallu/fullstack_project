@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <style>
+        body{
+            background-image: url("");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+      .heading{
+        background-color:rgb(51, 187, 197);
+        height:150px;
+        width:1500px;
+      }
+      .s1{
+        border-right: 3px solid white;
+        height: 160px;
+        position:absolute;
+        top:-2px;
+        left:1250px;
+      }
+      .s2{
+        border-right: 3px solid white;
+        height: 160px;
+        position:absolute;
+        top:-2px;
+        left:1300px;
+      }
+      h1{
+        font-size:50px;
+        position:relative;
+        top:-10px;
+        left:680px;
+      }
+      .div1{
+        padding:40px;
+        height:300px;
+        width:500px;
+        outline-style:double;
+        outline-offset:10px;
+        border-radius:15px 50px;
+        border:2px solid black;
+        position:relative;
+        top:100px;
+        left:70px;
+        
+      }
+      .div2{
+        padding:40px;
+        height:300px;
+        width:500px;
+        outline-style:double;
+        outline-offset:10px;
+        border-radius:15px 50px;
+        border:2px solid black;
+        position:relative;
+        top:-280px;
+        left:700px;
+      }
+   
+    </style>
+</head>
+<body><div class="heading">
+  <br><br>
+  <h1><i><u>
+Dictionary
+</u></i></h1><br>
+ <div class="s1"></div>
+  <div class="s2"></div>
+</div>
+  <form method="post" action="/dashboard">
+    <div class="div1">
+      <br><br>
+      <br>
+      <h2><i> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Hey! Check the information of your word</i></h2>
+      <br><br>
+         &nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  &nbsp&nbsp&nbsp&nbsp&nbsp <input type="text" name="word" placeholder="Enter the word" class="input">
+        <button>search</button>
+       </div>
+  <div class="div2">
+    <br><br><br><p class="p"><b>&nbsp&nbsp&nbsp
+      <%=wor%></b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <p><b><%=pho%> </p>
+      <b><%=def%></b></p>
+      <p><b><%=pos%></p>
+      <p><b><%exm%></b></p>  
+  </div>
+       
+
+  
+  </form>
+</body>
+</html>

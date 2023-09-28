@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form</title>
+    <style>
+         body{
+            background-image: url("https://www.alll.com/wp-content/uploads/2019/01/signup-background-1024x477.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+       
+      
+        .div1{
+            
+          
+            padding:10px;
+            border-radius: 25px;
+            border:1px solid black;
+            height:300px;
+            width:300px;
+            position: relative;
+            top:70px;
+            left:600px;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="div1">
+     
+        <h1>Login Form</h1>
+    <form method="post" action="/login">
+        <p>Email:</p>
+        <input type="email" name="Email">
+        <p>Password:</p>
+        <input type="password" name="password">
+        <button>Submit</button>
+           <p> <%=data1%></p>
+    </form>
+    </div>
+</body>
+</html>
